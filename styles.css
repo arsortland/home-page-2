@@ -3,9 +3,21 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h1{
     color: white;
+    font-size: 5vmin;
+    animation: text 2000ms ease-in-out;
+}
 
+@keyframes text{
+    0% {
+        transform: translateY(-1000px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
